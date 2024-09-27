@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f4f7fa;
+    background-color: #f5f7f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,21 +17,21 @@ body {
 
 /* Form Container */
 form {
-    background-color: white;
-    padding: 30px;
-    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
     max-width: 600px;
     width: 100%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e3e5e8;
 }
 
 /* Heading */
 h1 {
     font-size: 2rem;
-    color: #2c3e50;
+    color: #2d3e50;
     text-align: center;
     margin-bottom: 1.5rem;
-    letter-spacing: 1px;
 }
 
 /* Question Styling */
@@ -47,58 +47,51 @@ h1 {
 }
 
 input[type="number"],
-select,
-input[type="radio"] {
-    margin-top: 8px;
-    margin-bottom: 15px;
-    display: block;
+select {
     font-size: 1rem;
-    padding: 10px;
+    padding: 12px;
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 6px;
-}
-
-select,
-input[type="number"] {
+    margin-top: 8px;
+    margin-bottom: 15px;
     font-family: 'Arial', sans-serif;
+    background-color: #f7f9fb;
 }
 
 /* Radio Buttons */
 input[type="radio"] {
-    width: auto;
     margin-right: 10px;
 }
 
 input[type="radio"] + label {
     display: inline-block;
-    margin-bottom: 10px;
     font-size: 1rem;
     color: #34495e;
+    margin-bottom: 10px;
 }
 
 /* Button Styling */
 button {
     display: block;
     width: 100%;
-    padding: 12px 0;
-    background-color: #3498db;
+    padding: 14px 0;
+    background-color: #0070ba;
     color: white;
     border: none;
     border-radius: 6px;
     font-size: 1.2rem;
     cursor: pointer;
-    margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #005a8e;
 }
 
 /* Placeholder Styling */
 input::placeholder {
-    color: #999;
+    color: #a9a9a9;
 }
 
 /* Responsive Design */
@@ -119,6 +112,6 @@ input::placeholder {
     }
 
     button {
-        padding: 10px 0;
+        padding: 12px 0;
     }
 }
