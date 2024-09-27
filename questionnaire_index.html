@@ -18,7 +18,7 @@
     
         <div class="question">
             <label for="monthlyIncome">2. What is your monthly income?</label>
-            <input type="number" id="monthlyIncome" name="monthlyIncome" min="0" required placeholder="Enter your monthly income in USD">
+            <input type="number" id="monthlyIncome" name="monthlyIncome" min="0" required placeholder="Enter your monthly income">
         </div>
     
         <div class="question">
@@ -35,18 +35,12 @@
     
         <div class="question">
             <label for="monthlySavings">4. How much do you save monthly?</label>
-            <select id="monthlySavings" name="monthlySavings" required>
-                <option value="Less than 5%">Less than 5% of my income</option>
-                <option value="5% - 10%">5% - 10%</option>
-                <option value="11% - 20%">11% - 20%</option>
-                <option value="More than 20%">More than 20%</option>
-                <option value="I don’t save">I don’t save</option>
-            </select>
+            <input type="number" id="monthlySavings" name="monthlySavings" min="0" required placeholder="Enter your monthly savings.">
         </div>
     
         <div class="question">
             <label for="monthlyExpenses">5. What are your current monthly expenses (approximately)?</label>
-            <input type="number" id="monthlyExpenses" name="monthlyExpenses" min="0" required placeholder="Enter your monthly expenses in USD">
+            <input type="number" id="monthlyExpenses" name="monthlyExpenses" min="0" required placeholder="Enter your monthly expenses.">
         </div>
     
         <div class="question">
@@ -63,7 +57,7 @@
     
         <div class="question">
             <label for="debtAmount">7. What is the total amount of your debt?</label>
-            <input type="number" id="debtAmount" name="debtAmount" min="0" required placeholder="Enter total amount of debt in USD">
+            <input type="number" id="debtAmount" name="debtAmount" min="0" required placeholder="Enter total amount of debt.">
         </div>
     
         <div class="question">
@@ -75,14 +69,8 @@
         </div>
     
         <div class="question">
-            <label for="investmentPercentage">9. What percentage of your income do you invest?</label>
-            <select id="investmentPercentage" name="investmentPercentage" required>
-                <option value="Less than 5%">Less than 5%</option>
-                <option value="5% - 10%">5% - 10%</option>
-                <option value="11% - 20%">11% - 20%</option>
-                <option value="More than 20%">More than 20%</option>
-                <option value="I don't invest">I don't invest</option>
-            </select>
+            <label for="investmentAmount">9. What amount of your monthly income do you invest?</label>
+            <input type="number" id="investmentAmount" name="investmentAmount" min='0' required placeholder="Enter the investment amount">
         </div>
     
         <div class="question">
