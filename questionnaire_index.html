@@ -34,13 +34,13 @@
         </div>
     
         <div class="question">
-            <label for="monthlySavings">4. How much do you save monthly?</label>
-            <input type="number" id="monthlySavings" name="monthlySavings" min="0" required placeholder="Enter your monthly savings.">
+            <label for="monthlySavings">4. How much do you save monthly in percentage?</label>
+            <input type="number" id="monthlySavings" name="monthlySavings" min="0" max="100" required placeholder="Enter your monthly savings in percentage.">
         </div>
     
         <div class="question">
-            <label for="monthlyExpenses">5. What are your current monthly expenses (approximately)?</label>
-            <input type="number" id="monthlyExpenses" name="monthlyExpenses" min="0" required placeholder="Enter your monthly expenses.">
+            <label for="monthlyExpenses">5. What are your current monthly expenses (approximately) in percentage?</label>
+            <input type="number" id="monthlyExpenses" name="monthlyExpenses" min="0" max = "100" required placeholder="Enter your monthly expenses in percentage.">
         </div>
     
         <div class="question">
@@ -69,8 +69,8 @@
         </div>
     
         <div class="question">
-            <label for="investmentAmount">9. What amount of your monthly income do you invest?</label>
-            <input type="number" id="investmentAmount" name="investmentAmount" min='0' required placeholder="Enter the investment amount">
+            <label for="investmentAmount">9. What amount of your monthly income do you invest in percentage?</label>
+            <input type="number" id="investmentAmount" name="investmentAmount" min='0' max="'100" required placeholder="Enter the investment amount in percentage.">
         </div>
     
         <div class="question">
@@ -145,14 +145,6 @@
             <label for="loss4">I would look for opportunities to buy more</label>
         </div>
 
-        <div class="question">
-            <label for="debtConsolidation">16. Are you interested in the consolidation of your debts?</label>
-            <input type="radio" id="consolidationYes" name="debtConsolidation" value="Yes" required>
-            <label for="consolidationYes">Yes</label><br>
-            <input type="radio" id="consolidationNo" name="debtConsolidation" value="No" required>
-            <label for="consolidationNo">No</label>
-        </div>
-    
         <button type="submit" onclick="submitForm()">Submit</button>
     </form>
     
