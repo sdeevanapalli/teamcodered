@@ -1,0 +1,52 @@
+/* Set the background and text color */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white; /* Set background to white */
+    color: #333; /* Set text color to dark */
+}
+
+h1 {
+    color: #fbc600; /* Set heading color to yellow */
+}
+
+/* Style the form questions */
+.question {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Set label color to dark */
+}
+
+select, input[type="radio"], input[type="number"] {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+button {
+    padding: 10px 20px;
+    background-color: #fbc600; /* Set button background to yellow */
+    color: white; /* Set button text to white */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f9b700; /* Darker yellow on hover */
+}
+
+/* Input focus effect */
+input[type="number"]:focus, select:focus {
+    outline: none;
+    border-color: #fbc600; /* Highlight input when focused */
+    box-shadow: 0 0 5px rgba(251, 198, 0, 0.5);
+}
