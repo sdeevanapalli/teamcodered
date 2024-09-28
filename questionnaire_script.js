@@ -34,7 +34,7 @@ function submitForm() {
     document.getElementById("equityResult").textContent = `Equity: ${equity}%`;
     document.getElementById("mutualFundResult").textContent = `Mutual Funds: ${mutualFund}%`;
     document.getElementById("fdResult").textContent = `Fixed Deposit: ${fixedDeposit}%`;
-    document.getElementById("sbResult").textContent = `Savings Bonds: ${savingsBond}%`;
+    document.getElementById("sbResult").textContent = `Savings Bank: ${savingsBond}%`;
 
     // Show the result section
     document.getElementById("result").style.display = "block";
